@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="2"
+    android:useDefaultMargins="true"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:padding="10dp"
+            android:text="@string/boy"
+            android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#5661B3"
+        android:digits="0123456789"
+        android:inputType="number"
+        android:maxLength="3"
+        android:hint="@string/_0_0"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        >
+
+        <requestFocus />
+    </EditText>
+
+        <TextView
+            android:id="@+id/boy"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#5661B3"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+
+             />
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:text="@string/kilo" />
+
+        <SeekBar
+            android:id="@+id/seek"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:progress="20"
+            />
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text=" " />
+        <TextView
+            android:id="@+id/kilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textStyle="bold|italic"
+            android:text="50kg" />
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:text="@string/cinsiyet"/>
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/bay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:text="@string/bay"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"/>
+            <RadioButton
+                android:id="@+id/bayan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:text="@string/bayan"/>
+        </RadioGroup>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/deal_kilonuz"/>
+        <TextView
+            android:id="@+id/ideal"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:background="#9561E2"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            />
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/durumunuz"/>
+        <TextView
+            android:id="@+id/durum"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:background="#3490DC"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+
+                />
+
+
+
+
+
+</GridLayout>

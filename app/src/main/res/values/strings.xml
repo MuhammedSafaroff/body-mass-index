@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Vicut Kitle İndeksi</string>
+    <string name="cinsiyet">Cinsiyet</string>
+    <string name="kilo">Kilo</string>
+    <string name="boy">Boy</string>
+    <string name="bay">Bay</string>
+    <string name="bayan">Bayan</string>
+    <string name="deal_kilonuz">İdeal Kilonuz</string>
+    <string name="durumunuz">Durumunuz</string>
+    <string name="_0_0">0.0</string>
+    <string name="zayif">Zayıfsınız</string>
+    <string name="normal">Normal kilodasınız</string>
+    <string name="fazla">Fazla kilolusunuz</string>
+    <string name="obez1">I.Derece obeziniz</string>
+    <string name="obez2">II.Derece obeziniz</string>
+    <string name="obez3">III.Derece morbid obeziniz</string>
+
+</resources>
